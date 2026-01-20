@@ -1,0 +1,1 @@
+For the KPI visual Monthlyrevenue.png, the whole dataset for used. But for all the rest of the KPI's and SQL queries, data for only a single month was used.

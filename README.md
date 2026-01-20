@@ -6,7 +6,7 @@ Urban mobility analytics pipeline and chatbot over NYC yellow taxi data. Include
 
 Video links:
 
-Streamlit UI (Chatbot) demo (Step 5):https://www.youtube.com/watch?v=2aoTewHA1Yg
+Streamlit UI (Chatbot) demo (Step 5): https://www.youtube.com/watch?v=2aoTewHA1Yg
 
 All of the processes executed in order from data ingestion to running PySpark (Steps 1-4): https://youtu.be/1yryqaeI5WQ
 
