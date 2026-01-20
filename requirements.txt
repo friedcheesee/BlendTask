@@ -1,0 +1,5 @@
+langchain-experimental
+streamlit
+python-dotenv       
+pandas
+langchain

@@ -1,11 +1,14 @@
 import streamlit as st
 import pandas as pd
+import os
 from langchain_sambanova import ChatSambaNova
 from langchain_experimental.agents.agent_toolkits import create_pandas_dataframe_agent
 from langchain_classic.agents import AgentType
+import dotenv
+dotenv.load_dotenv()
 
 
-API_KEY = "-"  
+API_KEY =  os.getenv("SAMBANOVA_API_KEY")  
 CSV_FILE_PATH = "D:\\Blend assignments\\Task\\cleaned_yellow_tripdata.csv"  
 
 st.set_page_config(page_title="Urban Mobility Insights AI", layout="wide")
@@ -88,7 +91,7 @@ Provide concise, executive-level insights.
 
 def main():
     try:
-        #load data from hardcoded file path
+        #load data 
         df = pd.read_csv(CSV_FILE_PATH)
 
         #convert datetime columns
